@@ -1,6 +1,10 @@
 const express = require('express')
 const app = express()
 const port = 3000
+const blogRouter = require('./routes/blog')
+
+app.use(express.static('public'))
+app.use('/blog', blogRouter)
 
 app.get('/', (req, res) => {
   res.send('Hello World!')
