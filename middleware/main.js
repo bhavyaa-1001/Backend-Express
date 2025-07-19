@@ -4,8 +4,6 @@ const port = 3000
 
 const blog = require('./routes/blog')
 
-// ...
-
 app.use('/blog', blog)
 
 

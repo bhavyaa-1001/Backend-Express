@@ -1,4 +1,4 @@
-use("CrudDb")
+use("new")
 
 // console.log(db)
 
