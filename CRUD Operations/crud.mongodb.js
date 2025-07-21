@@ -1,7 +1,6 @@
 use("new")
 
 // console.log(db)
-
 db.createCollection("courses")
 db.courses.insertOne({
     name: "Bhavya",
