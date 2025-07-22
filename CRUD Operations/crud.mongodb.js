@@ -12,3 +12,7 @@ db.courses.insertOne({
     ],
     completed: false,
 })
+
+let a = db.courses.findOne({ name: "Bhavya" })
+    console.log(a)
+console.log(a.count(assignments))
