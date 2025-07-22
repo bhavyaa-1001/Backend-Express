@@ -18,4 +18,4 @@ let a = db.courses.findOne({ name: "Bhavya" })
 console.log(a.count(assignments))
 
 db.courses.updateOne(
-    { name: "Bhavya" }, {$set:{name: "Bhavya Singh"}} )
+    { name: "Bhavya" }, {$set:{name: "Bhavya b"}} )
