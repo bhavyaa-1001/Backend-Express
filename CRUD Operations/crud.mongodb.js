@@ -16,3 +16,6 @@ db.courses.insertOne({
 let a = db.courses.findOne({ name: "Bhavya" })
     console.log(a)
 console.log(a.count(assignments))
+
+db.courses.updateOne(
+    { name: "Bhavya" }, {name: "Bhavya Singh"} )
